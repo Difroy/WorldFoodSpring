@@ -23,8 +23,8 @@ import com.generation.foodworld.model.repository.ProductRepository;
 @RequestMapping("/wf/api/products")
 public class ProductAPI 
 {
-
-    @Autowired
+    
+	@Autowired
     private ProductRepository productRepository;
 
     // Get all products
